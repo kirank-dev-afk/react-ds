@@ -1,0 +1,38 @@
+.details{
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   border-radius: 10px;
+   padding: 50px;
+   
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     background-size: auto;
+    background: linear-gradient(to left, rgba(7, 7, 7, 0.2), rgba(0, 0, 0, 0.9)),url("https://i.pinimg.com/1200x/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg");
+    background-repeat: none;
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+    
+    
+    }
+
+button{
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-top:10px ;
+
+    
+}
+.details h1{
+    color: white;
+    
+}
+
