@@ -1,19 +1,22 @@
 .netflix{
- background-color: #000000;
- height:100vh;
- display: flex;
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    /* width: 100vw; */
+        font-family: "Raleway", sans-serif;
 
- font-family: "Raleway", sans-serif;
 }
 .sidebar{
-    height: 100%;
-    width: 5%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
-    /* background: #131313; */
+    gap: 40px;
+    justify-content: center;
+    height: 100vh;
+    width: 5%;
+}
+.sideber :hover{
+    background-color: red;
 }
 .home-main{
     display: block;
@@ -23,16 +26,16 @@
 .hero{
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    padding-top: 120px;
+    gap: 22px;
+    padding-top : 120px;
     color: white;
-    background: linear-gradient(to top right, rgba(0,0,0,1.0),rgba(0,0,0,0.1)) , url("../assets/aadu.jpg");
+    background: linear-gradient(to top right,rgba(0,0,0,1.0),rgba(0,0,0,0.1)) , url("../assets/MLBB Loading Screen_ HUNTERxHUNTER Gon, Killua, Kurapika, & Hisoka.jpg");
     background-size: cover;
     margin-bottom: 20px;
-    size: 50px;
 }
 .hero p{
     margin: 0;
+
 }
 .hero img{
     width: 400px;
@@ -42,8 +45,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
-    margin-top: 20px;    
+    gap: 15px;
+    margin-top: 20px;
+    
 }
 .playbutton{
     background-color: red;
@@ -52,34 +56,40 @@
     font-size: 20px;
     padding: 14px;
     width: 130px;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 .trailerbutton{
-    background-color: rgb(239, 231, 231);
+    background-color: white;
     color: #000000;
     border: none;
-    border-radius: 25px;
     font-size: 20px;
-    width: 200px;
     padding: 14px;
+    width: 150px;
+    border-radius: 30px;
 }
 .list{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     margin-top: 25px;
     gap: 20px;
-    background-color: #000000;
-}
-.movies h1{
-    color: rgb(14, 13, 13);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    /* justify-content: ; */
+    /* height: 100vh; */
+    /* width: 5%; */
 }
 .list img{
     height: 250px;
-    width: 250px;
 }
-body{
-    background-color: black;
+.movies h1{
+    color: white;
+    /* width: 150px; */
+    margin: 0;
+}
+.playbutton:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1);
+}
+.trailerbutton:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1);
 }
